@@ -140,7 +140,11 @@ class Emb:
 
             if (datagram_type == 'X') or (datagram_type == 'D'):
                 datagram.read()
-                self.set_depth_line(datagram, counter, navigation=self._navigation[-1])
+                if len(self._navigation)>0:
+                    nav = self._navigation[-1]
+                else:
+                    nav = None
+                self.set_depth_line(datagram, counter, navigation=nav)
                 
             counter  = counter + 1    
             if counter % 10000 == 0:

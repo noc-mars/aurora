@@ -24,7 +24,7 @@ This notebook depends on the following packages:
 - [pyxtf](https://github.com/oysstu/pyxtf) `pip3 install pyxtf`
 - [ipyleaflet](https://ipyleaflet.readthedocs.io/en/latest/installation.html) `pip install ipyleaflet`
 
-The notebook also forks the [pyall](https://github.com/pktrigg/pyall) package.
+The repository also forks the [pyall](https://github.com/pktrigg/pyALL) package, and a slightly modified version is provided in the `utils` folder.
 
 There is a conda equivalent for some of the packages and you might decide to use that:
 - `conda install -c anaconda scipy`

@@ -56,3 +56,10 @@ jupyter nbextension enable --py --sys-prefix ipyleaflet
 ## Run it
 
 Run the main notebook [aurora-dataset.ipynb](aurora-dataset.ipynb).
+
+
+## Data
+
+The AURORA dataset is available from [here](https://ieee-dataport.org/open-access/aurora-multi-sensor-dataset-robotic-ocean-exploration).
+
+A small sample is available [here](https://github.com/noc-mars/aurora_dataset_sample).
